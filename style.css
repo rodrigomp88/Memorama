@@ -8,6 +8,12 @@
 }
 
 body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
   padding: 0;
   margin: 0;
   -webkit-perspective: 1000;
@@ -56,12 +62,12 @@ div {
 }
 
 .superior {
-  background: linear-gradient(orange, darkorange);
+  background: rgba(148, 187, 233, 1);
 }
 
 .nuevoJuego {
   cursor: pointer;
-  background: linear-gradient(orange, darkorange);
+  background: rgba(148, 187, 233, 1);
   padding: 20px;
   border-radius: 50px;
   border: white 5px solid;
@@ -76,4 +82,16 @@ div {
   10% {
     transform: rotateY(0deg);
   }
+}
+
+.footer {
+  color: #000;
+  text-align: center;
+  text-align: center;
+  padding: 3px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
